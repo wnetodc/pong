@@ -54,7 +54,10 @@ pontuacao_b = 0
 # mover raquete a para cima
 def mover_a_para_cima():
     y = raquete_a.ycor()
-    y += 20
+    if y > 250:
+        y = 250
+    else:
+        y += 20
     raquete_a.sety(y)
 
 # mover raquete a para baixo
