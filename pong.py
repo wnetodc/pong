@@ -134,4 +134,4 @@ while True:
 
     # atualização de placar
     placar.write("Jogador 1: {} Jogador 2: {}".format(pontuacao_a, pontuacao_b), 
-        align= "center", font=("Courier", 12, "normal") )
+        align= "center", font=("Courier", 24, "normal") )
